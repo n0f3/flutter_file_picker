@@ -5,6 +5,8 @@ repository: https://github.com/miguelpruivo/flutter_file_picker
 issue_tracker: https://github.com/miguelpruivo/flutter_file_picker/issues
 version: 5.2.0+1
 
+publish_to: none
+
 dependencies:
   flutter:
     sdk: flutter
@@ -15,7 +17,10 @@ dependencies:
   plugin_platform_interface: ^2.1.2
   ffi: ^2.0.1
   path: ^1.8.0
-  win32: ^3.0.0
+  win32:
+    git:
+      url: https://github.com/n0f3/win32
+      ref: audio
 
 dev_dependencies:
   lints: ^2.0.0
